@@ -1,10 +1,8 @@
 package strategy;
 
-/**
- * 抽象父类Duck
- */
+//抽象父类Duck
 public abstract class Duck {
-	FlyBehavior flyBehavior;	//面向接口编程
+	FlyBehavior flyBehavior;    //面向接口编程
 	QuackBehavior quackBehavior;
 
 	void fly() {

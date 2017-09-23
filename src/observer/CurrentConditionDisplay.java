@@ -1,6 +1,6 @@
 package observer;
 
-public class CurrentConditionDisplay implements Observer,DisplayElement {
+public class CurrentConditionDisplay implements Observer, DisplayElement {
 	private float temp;
 	private float humidty;
 	private Subject weatherData;
@@ -11,7 +11,7 @@ public class CurrentConditionDisplay implements Observer,DisplayElement {
 	}
 
 	public void display() {
-		System.out.println("当前情况："+"温度："+temp+"湿度："+humidty);
+		System.out.println("当前情况：" + "温度：" + temp + "湿度：" + humidty);
 	}
 
 	public void update(float temp, float humidty, float pressure) {
